@@ -1559,6 +1559,323 @@
   }
 }
 
+.grand {
+  background-image: url(../img/hero__bg.jpg!w700wp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.grand__parent {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+@media (max-width: 1200px) {
+  .grand__parent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+.grand__content > button {
+  border: none;
+  background: #201F1F;
+  box-shadow: -3px 5px 4px 0px #2C2C2C inset;
+  font-weight: 500;
+  font-size: 18px;
+  color: #F0F0F0;
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+  margin: 50px 0;
+}
+@media (max-width: 770px) {
+  .grand__content > button {
+    font-size: 14px;
+    padding: 15px;
+  }
+}
+.grand__content > button:hover {
+  background: #FF5200;
+  box-shadow: -3px 5px 4px 0px #FE6D2F inset;
+}
+.grand__content > h1 {
+  color: #F0F0F0;
+  font-family: "ClashDisplay";
+  font-size: 70px;
+  font-weight: 600;
+}
+@media (max-width: 770px) {
+  .grand__content > h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .grand__content > h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 370px) {
+  .grand__content > h1 {
+    font-size: 33px;
+  }
+}
+.grand__content > p {
+  color: #C0C0BF;
+  line-height: 30px;
+}
+@media (max-width: 770px) {
+  .grand__content > p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 370px) {
+  .grand__content > p {
+    font-size: 12px;
+  }
+}
+.grand__btns {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-top: 40px;
+}
+@media (max-width: 770px) {
+  .grand__btns {
+    gap: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .grand__btns {
+    flex-direction: column-reverse;
+  }
+}
+.grand__btns > button {
+  border: none;
+  background: #201F1F;
+  box-shadow: -3px 5px 4px 0px #2C2C2C inset;
+  font-weight: 500;
+  font-size: 18px;
+  color: #F0F0F0;
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+@media (max-width: 770px) {
+  .grand__btns > button {
+    font-size: 14px;
+    padding: 15px;
+  }
+}
+.grand__btns > button:hover {
+  background: #FF5200;
+  box-shadow: -3px 5px 4px 0px #FE6D2F inset;
+}
+.grand__img {
+  width: 1312px;
+  height: 693px;
+  border-radius: 16px;
+  padding-bottom: 100px;
+}
+@media (max-width: 1400px) {
+  .grand__img {
+    width: 100%;
+  }
+}
+@media (max-width: 770px) {
+  .grand__img {
+    height: 100%;
+  }
+}
+
+.amenity {
+  background: #020100;
+}
+.amenity__parent {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+@media (max-width: 1400px) {
+  .amenity__parent {
+    flex-direction: column-reverse;
+    place-items: center;
+    text-align: center;
+  }
+}
+.amenity__parent-child1 > h1 {
+  color: #F0F0F0;
+  font-family: "ClashDisplay";
+  font-weight: 600;
+  font-size: 50px;
+  padding: 20px 0;
+}
+@media (max-width: 800px) {
+  .amenity__parent-child1 > h1 {
+    width: 100%;
+    font-size: 35px;
+  }
+}
+.amenity__parent-child1 > p {
+  color: #C0C0BF;
+  font-weight: 500;
+  font-size: 18px;
+  width: 750px;
+  line-height: 35px;
+}
+@media (max-width: 800px) {
+  .amenity__parent-child1 > p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 800px) {
+  .amenity__parent-child1 > img {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .amenity__parent-child1-img {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .amenity__parent-child1-img > img {
+    width: 100%;
+    height: 300px;
+  }
+}
+.amenity__parent-child2 {
+  margin-top: 20px;
+}
+.amenity__parent-child2-list {
+  border: 1px solid #282726;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (max-width: 500px) {
+  .amenity__parent-child2-list {
+    width: 100%;
+  }
+}
+.amenity__parent-child2-list > li:nth-of-type(1) {
+  font-size: 25px;
+  color: #F0F0F0;
+  font-family: "ClashDisplay";
+  border-bottom: 1px solid #282726;
+}
+.amenity__parent-child2-list > li > a {
+  color: #C0C0BF;
+  font-weight: 500;
+}
+.amenity__parent-child2-link {
+  background: #161514;
+  border: 1px solid #282726;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+@media (max-width: 500px) {
+  .amenity__parent-child2-link {
+    width: 100%;
+  }
+}
+.amenity__parent-child2-link > a {
+  font-family: "ClashDisplay";
+  color: #F0F0F0;
+  font-size: 24px;
+  font-weight: 500;
+}
+@media (max-width: 500px) {
+  .amenity__parent-child2-link > a {
+    font-size: 18px;
+  }
+}
+.amenity__parent-child2-link > i {
+  color: #8D8D8C;
+  font-size: 25px;
+}
+@media (max-width: 500px) {
+  .amenity__parent-child2-link > i {
+    font-size: 18px;
+  }
+}
+.amenity__parent-child2-stat > p {
+  font-family: "ClashDisplay";
+  font-weight: 500;
+  font-size: 25px;
+  color: #F0F0F0;
+}
+@media (max-width: 500px) {
+  .amenity__parent-child2-stat > p {
+    font-size: 20px;
+  }
+}
+.amenity__parent-child2-index {
+  background: linear-gradient(to right, #FF5200 65%, rgba(0, 0, 0, 0) 20%);
+  border: 1px solid #282726;
+  height: 8px;
+  width: 400px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .amenity__parent-child2-index {
+    width: 100%;
+  }
+}
+.amenity__parent-child2-btn > h3 {
+  color: #F0F0F0;
+  font-family: "ClashDisplay";
+  font-weight: 500;
+  font-size: 25px;
+  padding: 20px 0;
+}
+@media (max-width: 500px) {
+  .amenity__parent-child2-btn > h3 {
+    font-size: 20px;
+  }
+}
+.amenity__parent-child2-btn > button {
+  border: none;
+  background: #FF5200;
+  box-shadow: -3px 5px 4px 0px #FE6D2F inset;
+  font-weight: 500;
+  font-size: 18px;
+  color: #F0F0F0;
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+  width: 400px;
+}
+@media (max-width: 500px) {
+  .amenity__parent-child2-btn > button {
+    width: 100%;
+    font-size: 15px;
+    padding: 15px;
+  }
+}
+.amenity__parent-child2-btn > button:hover {
+  background: #201F1F;
+  box-shadow: -3px 5px 4px 0px #2C2C2C inset;
+}
+
 .footer {
   background: #020100;
 }
